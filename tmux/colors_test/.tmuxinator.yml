@@ -12,14 +12,8 @@ windows:
           - roslaunch --wait social_sim_ros sim_tcp_bridge.launch
         #- unity:
         #  - python3 src/social_sim_ros/social_sim_ros/scripts/run_scenarios.py --only-warehouse --time_limit 4.0 --shuffle --dest_thresh 1.2
-        - joy:
-          - rosrun joy joy_node
-        - teleop:
-          - rosrun teleop_twist_joy teleop_node
-        - repeater:
-          - rosrun colors_test cmd_vel_repeater.py
         - move_base:
-          - roslaunch --wait social_sim_ros kuri_move_base_global_only.launch
+          - rosrun colors_test move_publisher.py
         - description:
           - roslaunch --wait social_sim_ros kuri_description.launch
         - map_publisher:
