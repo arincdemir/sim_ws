@@ -1,7 +1,4 @@
-src
 bin
-databags
-experiments
 build.lock
 yarn-error.log
 .env
@@ -18,5 +15,4 @@ social_sim_unity
 docker/images
 data
 data_bk
-navigation
 .vscode

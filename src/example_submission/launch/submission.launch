@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="example_submission" name="move_base" type="tutorial_controller.py" output="screen" />
+</launch>
