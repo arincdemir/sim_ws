@@ -1,0 +1,8 @@
+prefix=/home/arinc/sim_ws/install
+
+Name: example_submission
+Description: Description of example_submission
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

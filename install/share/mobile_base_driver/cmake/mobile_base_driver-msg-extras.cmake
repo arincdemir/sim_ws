@@ -1,0 +1,2 @@
+set(mobile_base_driver_MESSAGE_FILES "msg/BatteryCapacity.msg;msg/Bumper.msg;msg/ChestLeds.msg;msg/CliffArray.msg;msg/CliffSensor.msg;msg/Clothesline.msg;msg/Led.msg;msg/Motor.msg;msg/Power.msg;msg/SafetyStatus.msg;msg/Sensors.msg;msg/Stall.msg;msg/Telescope.msg;msg/Touch.msg;msg/WheelDrop.msg;msg/WheelTraj.msg;msg/WheelTrajPoint.msg;msg/ArcMoveAction.msg;msg/ArcMoveActionGoal.msg;msg/ArcMoveActionResult.msg;msg/ArcMoveActionFeedback.msg;msg/ArcMoveGoal.msg;msg/ArcMoveResult.msg;msg/ArcMoveFeedback.msg")
+set(mobile_base_driver_SERVICE_FILES "")

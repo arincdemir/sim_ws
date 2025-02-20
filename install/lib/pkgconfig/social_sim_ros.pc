@@ -1,0 +1,8 @@
+prefix=/home/arinc/sim_ws/install
+
+Name: social_sim_ros
+Description: Description of social_sim_ros
+Version: 0.1.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lsocial_sim_ros
+Requires: message_runtime std_msgs geometry_msgs

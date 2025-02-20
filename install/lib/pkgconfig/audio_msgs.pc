@@ -1,0 +1,8 @@
+prefix=/home/arinc/sim_ws/install
+
+Name: audio_msgs
+Description: Description of audio_msgs
+Version: 1.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: std_msgs

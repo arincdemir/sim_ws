@@ -1,0 +1,8 @@
+prefix=/home/arinc/sim_ws/install
+
+Name: kuri_person_tracking
+Description: Description of kuri_person_tracking
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

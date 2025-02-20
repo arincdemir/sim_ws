@@ -1,0 +1,8 @@
+prefix=/home/arinc/sim_ws/install
+
+Name: kuri_navigation
+Description: Description of kuri_navigation
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

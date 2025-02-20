@@ -1,0 +1,8 @@
+prefix=/home/arinc/sim_ws/install
+
+Name: may_nav_msgs
+Description: Description of may_nav_msgs
+Version: 14.3.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: std_msgs

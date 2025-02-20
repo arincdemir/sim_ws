@@ -1,0 +1,8 @@
+prefix=/home/arinc/sim_ws/install
+
+Name: kuri_audio
+Description: Description of kuri_audio
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

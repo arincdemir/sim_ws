@@ -1,0 +1,8 @@
+prefix=/home/arinc/sim_ws/install
+
+Name: mobile_base_driver
+Description: Description of mobile_base_driver
+Version: 14.3.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

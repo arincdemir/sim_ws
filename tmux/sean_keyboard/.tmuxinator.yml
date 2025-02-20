@@ -15,7 +15,8 @@ windows:
         - keyboard:
           - rosrun colors wasd_controller.py
         - move_base:
-          - roslaunch --wait social_sim_ros kuri_move_base_global_only.launch
+          #- roslaunch --wait social_sim_ros kuri_move_base_global_only.launch
+          - echo "placeholder"
         - description:
           - roslaunch --wait social_sim_ros kuri_description.launch
         - map_publisher:

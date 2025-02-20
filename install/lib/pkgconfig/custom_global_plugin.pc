@@ -1,0 +1,8 @@
+prefix=/home/arinc/sim_ws/install
+
+Name: custom_global_plugin
+Description: Description of custom_global_plugin
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib -lsimple_global_planner
+Requires: roscpp pluginlib nav_core costmap_2d geometry_msgs

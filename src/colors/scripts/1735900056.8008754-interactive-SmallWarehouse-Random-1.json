@@ -1,0 +1,40 @@
+{
+    "header": {
+        "seq": 1,
+        "stamp": {
+            "secs": 0,
+            "nsecs": 0
+        },
+        "frame_id": ""
+    },
+    "scenario_name": "Random",
+    "robot_start_pose": {
+        "position": {
+            "x": -6.260000228881836,
+            "y": -12.050000190734863,
+            "z": 0.0
+        },
+        "orientation": {
+            "x": -0.0,
+            "y": 0.0,
+            "z": -0.0,
+            "w": -1.0
+        }
+    },
+    "robot_target_pose": {
+        "position": {
+            "x": 3.880000114440918,
+            "y": -12.050000190734863,
+            "z": 0.0
+        },
+        "orientation": {
+            "x": -0.0,
+            "y": 0.0,
+            "z": -0.0,
+            "w": -1.0
+        }
+    },
+    "num_people": 1,
+    "num_groups": 0,
+    "environment": "SmallWarehouse"
+}

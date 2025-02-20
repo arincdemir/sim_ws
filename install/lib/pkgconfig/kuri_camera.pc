@@ -1,0 +1,8 @@
+prefix=/home/arinc/sim_ws/install
+
+Name: kuri_camera
+Description: Description of kuri_camera
+Version: 0.1.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: cv_bridge image_transport sensor_msgs compressed_image_transport dynamic_reconfigure

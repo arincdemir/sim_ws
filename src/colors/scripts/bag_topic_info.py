@@ -3,7 +3,7 @@ import rosbag
 import io
 
 # Path to your bag file
-bag_file = '1733931109.0102358-interactive-SmallWarehouse-Random-1.bag'
+bag_file = '3_person/1739963927.2225685-interactive-SmallWarehouse-Random-3.bag'
 
 
 with rosbag.Bag(bag_file, 'r') as bag:
@@ -13,7 +13,7 @@ with rosbag.Bag(bag_file, 'r') as bag:
         print(f"Topic: {topic}, Message Type: {info.msg_type}, Message Count: {info.message_count}")
     
     # Read messages from a specific topic
-    topic_to_read = '/tf'
+    topic_to_read = '/social_sim/agent_positions'
     i = 0
     for topic, msg, t in bag.read_messages(topics=[topic_to_read]):
         print(f"Message on {topic} at time {t.to_sec()}: {msg}")

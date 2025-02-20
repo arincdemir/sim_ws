@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: ros-tcp-endpoint
+Version: 0.6.0
+Summary: Acts as the bridge between Unity messages sent via Websocket and ROS messages.
+Home-page: UNKNOWN
+Author: 
+Maintainer: Unity Robotics
+Maintainer-email: unity-robotics@unity3d.com
+License: Apache 2.0
+Description: UNKNOWN
+Platform: UNKNOWN

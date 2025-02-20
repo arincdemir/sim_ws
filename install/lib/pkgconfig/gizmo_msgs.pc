@@ -1,0 +1,8 @@
+prefix=/home/arinc/sim_ws/install
+
+Name: gizmo_msgs
+Description: Description of gizmo_msgs
+Version: 14.3.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: actionlib_msgs audio_msgs geometry_msgs nav_msgs mayfield_msgs mobile_base_driver sensor_msgs std_msgs

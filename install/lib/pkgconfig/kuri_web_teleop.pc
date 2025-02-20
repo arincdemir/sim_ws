@@ -1,0 +1,8 @@
+prefix=/home/arinc/sim_ws/install
+
+Name: kuri_web_teleop
+Description: Description of kuri_web_teleop
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

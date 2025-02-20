@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: kuri_api
+Version: 0.1.0
+Summary: High-level API for controlling the Kuri robot.
+Home-page: UNKNOWN
+Author: Nick Walker
+Author-email: nwalker@cs.uw.edu
+License: None
+Description: UNKNOWN
+Platform: UNKNOWN

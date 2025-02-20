@@ -1,0 +1,8 @@
+prefix=/home/arinc/sim_ws/install
+
+Name: social_sim_teleop
+Description: Description of social_sim_teleop
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib -lsocial_sim_teleop
+Requires: roscpp geometry_msgs joy
